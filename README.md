@@ -32,7 +32,7 @@ Omnilingual ASR is an open-source speech recognition system supporting over 1,60
 <table align="center" style="width:100%; border: none; background-color: transparent;">
   <tr style="background-color: transparent;">
     <td align="center" valign="top" width="33%" style="border: none; padding: 10px;">
-      <h3 align="left">🚀 Quick Start</h3>
+      <h3 align="left">Quick Start</h3>
       <ul>
         <li align="left"><strong><a href="#installation">Installation & Basic Usage</a></strong> - Setup and first transcription</li>
         <li align="left"><strong><a href="src/omnilingual_asr/models/inference/README.md">Inference Pipeline</a></strong> - Comprehensive transcription guide with batch processing, language conditioning, and context examples</li>
@@ -40,7 +40,7 @@ Omnilingual ASR is an open-source speech recognition system supporting over 1,60
       </ul>
     </td>
     <td align="center" valign="top" width="33%" style="border: none; padding: 10px;">
-      <h3 align="left">🤖 Models & Architecture</h3>
+      <h3 align="left">Models & Architecture</h3>
       <ul>
         <li align="left"><strong><a href="#model-architectures">Model Specifications</a></strong> - Available models, parameters, and memory requirements</li>
         <li align="left"><strong><a href="src/omnilingual_asr/models/README.md">Architecture Overview</a></strong> - Technical details on W2V, CTC, and LLM model families</li>
@@ -48,7 +48,7 @@ Omnilingual ASR is an open-source speech recognition system supporting over 1,60
       </ul>
     </td>
     <td align="center" valign="top" width="33%" style="border: none; padding: 10px;">
-      <h3 align="left">🛠️ Training & Data Pipeline</h3>
+      <h3 align="left">Training & Data Pipeline</h3>
       <ul>
         <li align="left"><strong><a href="workflows/dataprep/README.md">Data Preparation</a></strong> - End-to-end guide for multilingual dataset preparation, HuggingFace integration, and parquet processing</li>
         <li align="left"><strong><a href="workflows/recipes/wav2vec2/asr/README.md">Training Recipes</a></strong> - Pre-configured workflows for CTC and LLM model training</li>
