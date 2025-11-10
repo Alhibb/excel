@@ -1,5 +1,3 @@
-***
-
 <div align="center">
   <a href="https://github.com/Alhibb/omnilingual-asr">
     <img src="./omniASR_header.jpg" alt="Header image with a collage of on-the-ground photos from the transcription gathering efforts in Pakistan and Liberia." width="100%" />
@@ -187,15 +185,76 @@ Omnilingual ASR code and models are released under the [Apache 2.0](./LICENSE).
 
 ## ✍️ Citation
 If you use the omnilingual ASR model suite in your research and wish to cite us, please use the following BibTeX entry (arxiv version will be added soon)!
+
+### For Reference Managers & LaTeX
+This version uses `et al.` for a clean, universally compatible entry. **This is the recommended version for direct copying.**
 ```bibtex
 @misc{omnilingualasr2025,
     title={{Omnilingual ASR}: Open-Source Multilingual Speech Recognition for 1600+ Languages},
-    author={
-        <details>
-            <summary>{Omnilingual ASR Team} and Keren, Gil and Kozhevnikov, Artyom and Meng, Yen and Ropers, Christophe and Setzler, Matthew and Wang, Skyler and Adebara, Ife and Auli, Michael and Chan, Kevin and Cheng, Chierh and Chuang, Joe and Droof, Caley and Duppenthaler, Mark and Duquenne, Paul-Ambroise and Erben, Alexander and Gao, Cynthia and Mejia Gonzalez, Gabriel and Lyu, Kehan and Miglani, Sagar and Pratap, Vineel and Sadagopan, Kaushik Ram and Saleem, Safiyyah and Turkatenko, Arina and Ventayol-Boada, Albert and Yong, Zheng-Xin and Chung, Yu-An and Maillard, Jean and Moritz, Rashel and Mourachko, Alexandre and Williamson, Mary and Yates, Shireen</summary>
-        </details>
-    },
+    author={{Omnilingual ASR Team} et al.},
     year={2025},
     url={https://ai.meta.com/research/publications/omnilingual-asr-open-source-multilingual-speech-recognition-for-1600-languages/},
 }
+```
+
+### Full Author List
+The full list of contributors to this work is provided below for complete attribution.
+<details>
+<summary><strong>Click to expand the full author list</strong></summary>
+
+<table style="width:100%; border: none; background-color: transparent;">
+  <tr style="background-color: transparent;">
+    <td valign="top" width="33%" style="border: none;">
+      <ul>
+        <li>Keren, Gil</li>
+        <li>Kozhevnikov, Artyom</li>
+        <li>Meng, Yen</li>
+        <li>Ropers, Christophe</li>
+        <li>Setzler, Matthew</li>
+        <li>Wang, Skyler</li>
+        <li>Adebara, Ife</li>
+        <li>Auli, Michael</li>
+        <li>Chan, Kevin</li>
+        <li>Cheng, Chierh</li>
+      </ul>
+    </td>
+    <td valign="top" width="33%" style="border: none;">
+      <ul>
+        <li>Chuang, Joe</li>
+        <li>Droof, Caley</li>
+        <li>Duppenthaler, Mark</li>
+        <li>Duquenne, Paul-Ambroise</li>
+        <li>Erben, Alexander</li>
+        <li>Gao, Cynthia</li>
+        <li>Mejia Gonzalez, Gabriel</li>
+        <li>Lyu, Kehan</li>
+        <li>Miglani, Sagar</li>
+        <li>Pratap, Vineel</li>
+      </ul>
+    </td>
+    <td valign="top" width="33%" style="border: none;">
+      <ul>
+        <li>Sadagopan, Kaushik Ram</li>
+        <li>Saleem, Safiyyah</li>
+        <li>Turkatenko, Arina</li>
+        <li>Ventayol-Boada, Albert</li>
+        <li>Yong, Zheng-Xin</li>
+        <li>Chung, Yu-An</li>
+        <li>Maillard, Jean</li>
+        <li>Moritz, Rashel</li>
+        <li>Mourachko, Alexandre</li>
+        <li>Williamson, Mary</li>
+        <li>Yates, Shireen</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+<br>
+
+To include the full author list in your BibTeX file, you can replace the `author` line with the following:
+```bibtex
+author={{Omnilingual ASR Team} and Keren, Gil and Kozhevnikov, Artyom and Meng, Yen and Ropers, Christophe and Setzler, Matthew and Wang, Skyler and Adebara, Ife and Auli, Michael and Chan, Kevin and Cheng, Chierh and Chuang, Joe and Droof, Caley and Duppenthaler, Mark and Duquenne, Paul-Ambroise and Erben, Alexander and Gao, Cynthia and Mejia Gonzalez, Gabriel and Lyu, Kehan and Miglani, Sagar and Pratap, Vineel and Sadagopan, Kaushik Ram and Saleem, Safiyyah and Turkatenko, Arina and Ventayol-Boada, Albert and Yong, Zheng-Xin and Chung, Yu-An and Maillard, Jean and Moritz, Rashel and Mourachko, Alexandre and Williamson, Mary and Yates, Shireen},
 ```
