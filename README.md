@@ -1,4 +1,4 @@
-```markdown
+
 <div align="center">
   <img src="./omniASR_header.jpg" alt="Header image with a collage of on-the-ground photos from the transcription gathering efforts in Pakistan and Liberia." width="100%" style="border-radius: 16px; box-shadow: 0 12px 40px rgba(0,0,0,0.18);"/>
   <p><i>Photographs captured during corpus creation efforts in Pakistan and Liberia.</i></p>
