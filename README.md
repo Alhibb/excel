@@ -1,4 +1,4 @@
-# SOLANA DATA
+# SOLANA DATAS
 
 ## Sample ReadMe
 
