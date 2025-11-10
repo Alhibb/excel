@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/Alhibb/omnilingual-asr">
+  <a href="https://github.com/facebookresearch/omnilingual-asr">
     <img src="./omniASR_header.jpg" alt="Header image with a collage of on-the-ground photos from the transcription gathering efforts in Pakistan and Liberia." width="100%" />
   </a>
   <p><i>Photographs captured during corpus creation efforts in Pakistan and Liberia.</i></p>
@@ -15,9 +15,9 @@ Omnilingual ASR is an open-source speech recognition system supporting over 1,60
 
 <p align="center">
   <a href="https://huggingface.co/spaces/facebook/omniasr-transcriptions"><strong>🤗 Huggingface Demo</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://huggingface.co/datasets/facebook/omnilingual-asr-corpus"><strong>💾 Huggingface Dataset</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://ai.meta.com/research/publications/omnilingual-asr-open-source-multilingual-speech-recognition-for-1600-languages/"><strong>📖 Paper</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="http://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition"><strong>📝 Blogpost</strong></a>
+  <a href="https://huggingface.co/datasets/facebook/omnilingual-asr-corpus"><strong> Huggingface Dataset</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://ai.meta.com/research/publications/omnilingual-asr-open-source-multilingual-speech-recognition-for-1600-languages/"><strong> Paper</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="http://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition"><strong> Blogpost</strong></a>
 </p>
 
 <div align="center">
@@ -27,7 +27,7 @@ Omnilingual ASR is an open-source speech recognition system supporting over 1,60
 
 ---
 
-## 🗺️ Documentation
+## Documentation
 
 <table align="center" style="width:100%; border: none; background-color: transparent;">
   <tr style="background-color: transparent;">
@@ -59,7 +59,7 @@ Omnilingual ASR is an open-source speech recognition system supporting over 1,60
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 The models were developed using [fairseq2](https://github.com/facebookresearch/fairseq2), a research-focused sequence modeling toolkit. While we provide a **reference** inference pipeline that works across platforms, audio support requires [libsndfile](https://github.com/facebookresearch/fairseq2?tab=readme-ov-file#system-dependencies) (Mac: `brew install libsndfile`; Windows may need an additional [setup](https://github.com/facebookresearch/fairseq2?tab=readme-ov-file#installing-on-windows)).
 
@@ -71,7 +71,7 @@ pip install omnilingual-asr
 uv add omnilingual-asr
 ```
 
-## ⚡ Inference
+## Inference
 
 ```python
 from omnilingual_asr.models.inference.pipeline import ASRInferencePipeline
@@ -143,7 +143,7 @@ for i, (transcription, original_text) in enumerate(zip(transcriptions, batch["ra
     print(f"   Predicted:    {transcription}")
 ```
 
-## 🤖 Model Architectures
+## Model Architectures
 
 | Model Name          | Features      | Parameters | Download Size (FP32) | Inference VRAM¹ | Real-Time Factor¹ (relative speed)² |
 |:--------------------|:--------------|:----------:|:--------------------:|:---------------:|:-----------------------------------:|
@@ -167,23 +167,23 @@ for i, (transcription, original_text) in enumerate(zip(transcriptions, batch["ra
 <br>
 ² Relative speed to `omniASR_LLM_7B`
 
-### 📥 Model Download & Storage
+###  Model Download & Storage
 - **Automatic Download**: Models are automatically downloaded on first use during training or inference
 - **Storage Location**: Models are saved to [`~/.cache/fairseq2/assets/`](https://facebookresearch.github.io/fairseq2/stable/basics/assets.html#the-asset-store-system)
 
-### 🏗️ Architecture Documentation
+### Architecture Documentation
 We provide a high-level model architecture overview in the model directory ([`src/omnilingual_asr/models`](/src/omnilingual_asr/models)), with individual configurations for each model family in the respective directories:
 - **SSL Models**: [`src/omnilingual_asr/models/wav2vec2_ssl`](/src/omnilingual_asr/models/wav2vec2_ssl/)
 - **CTC Models**: [`src/omnilingual_asr/models/wav2vec2_asr`](/src/omnilingual_asr/models/wav2vec2_asr/)
 - **LLM Models**: [`src/omnilingual_asr/models/wav2vec2_llama`](/src/omnilingual_asr/models/wav2vec2_llama/)
 
-## 🎓 Training
+## Training
 To further finetune the released checkpoints on your own data, use our [data preparation guide](/workflows/dataprep/README.md) followed by the [finetuning recipe guide](/workflows/recipes/wav2vec2/asr/README.md).
 
-## ⚖️ License
+## License
 Omnilingual ASR code and models are released under the [Apache 2.0](./LICENSE).
 
-## ✍️ Citation
+## Citation
 If you use the omnilingual ASR model suite in your research and wish to cite us, please use the following BibTeX entry (arxiv version will be added soon)!
 
 ### For Reference Managers & LaTeX
@@ -252,9 +252,3 @@ The full list of contributors to this work is provided below for complete attrib
 
 </details>
 
-<br>
-
-To include the full author list in your BibTeX file, you can replace the `author` line with the following:
-```bibtex
-author={{Omnilingual ASR Team} and Keren, Gil and Kozhevnikov, Artyom and Meng, Yen and Ropers, Christophe and Setzler, Matthew and Wang, Skyler and Adebara, Ife and Auli, Michael and Chan, Kevin and Cheng, Chierh and Chuang, Joe and Droof, Caley and Duppenthaler, Mark and Duquenne, Paul-Ambroise and Erben, Alexander and Gao, Cynthia and Mejia Gonzalez, Gabriel and Lyu, Kehan and Miglani, Sagar and Pratap, Vineel and Sadagopan, Kaushik Ram and Saleem, Safiyyah and Turkatenko, Arina and Ventayol-Boada, Albert and Yong, Zheng-Xin and Chung, Yu-An and Maillard, Jean and Moritz, Rashel and Mourachko, Alexandre and Williamson, Mary and Yates, Shireen},
-```
