@@ -245,3 +245,11 @@ If you use Omnilingual ASR in your research, please cite our work:
     url={https://ai.meta.com/research/publications/omnilingual-asr-open-source-multilingual-speech-recognition-for-1600-languages/},
 }
 ```
+# SOLANA DATAS
+
+## Sample ReadMe
+
+
+**Check this Image**
+
+![alt text](average_salary_by_department.png)
